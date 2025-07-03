@@ -12,7 +12,7 @@ export default defineConfig({
     viteReact(),
     tailwindcss(),
   ],
-  base: "/lewbisherr.github.io",
+  base: "/diego-portfolio",
   test: {
     globals: true,
     environment: 'jsdom',
