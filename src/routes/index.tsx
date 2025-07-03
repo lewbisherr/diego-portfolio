@@ -1,4 +1,4 @@
-import { createFileRoute } from '@tanstack/react-router'
+import { createFileRoute, Link } from '@tanstack/react-router'
 import logo from '../logo.svg'
 
 export const Route = createFileRoute('/')({
@@ -33,6 +33,7 @@ function App() {
         >
           Learn TanStack
         </a>
+        <Link to='/wee'>weee</Link>
       </header>
     </div>
   )
